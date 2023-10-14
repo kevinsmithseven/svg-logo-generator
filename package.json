@@ -1,0 +1,22 @@
+{
+  "name": "svg-logo-generator",
+  "version": "1.0.0",
+  "description": "A command line application that creates a custom SVG logo based on user input",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
