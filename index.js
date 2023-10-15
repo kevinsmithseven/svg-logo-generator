@@ -4,7 +4,7 @@ const { promptUser } = require('./lib/userinput.js')
 // Utilize promises for promptUser
 const { writeFile } = require('fs').promises;
 
-// Import generateLogo function from shapes.js
+// Import Class constructors
 const Circle = require('./lib/Circle.js');
 const Square = require('./lib/Square.js');
 const Triangle = require('./lib/Triangle.js');
@@ -12,7 +12,7 @@ const Triangle = require('./lib/Triangle.js');
 const init = () => {
     promptUser()
 
-    //Pass user input from userinput.js into generateLogo function on shapes.js
+    //Call generateShape method based on user shape selection
     .then((userInput) => {
         if (userInput.shape === 'circle') {
 
