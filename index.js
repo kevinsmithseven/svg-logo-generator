@@ -1,11 +1,11 @@
 // Import the promptUser function from userinput.js
-const { promptUser } = require('./lib/userinput')
+const { promptUser } = require('./lib/userinput.js')
 
 // Utilize promises for promptUser
 const { writeFile } = require('fs').promises;
 
 // Import generateLogo function from shapes.js
-const { generateLogo} = require('./lib/Shapes');
+const { generateLogo } = require('./lib/Shape.js');
 
 const init = () => {
     promptUser()
