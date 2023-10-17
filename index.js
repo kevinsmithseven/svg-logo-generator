@@ -9,10 +9,11 @@ const Circle = require('./lib/Circle.js');
 const Square = require('./lib/Square.js');
 const Triangle = require('./lib/Triangle.js');
 
+// initialize app function
 const init = () => {
     promptUser()
 
-    //Call generateShape method based on user shape selection
+    //Call renderSVG method based on user shape selection
     .then((userInput) => {
         
         let userShape;
@@ -28,10 +29,12 @@ const init = () => {
         }
         return userShape.renderSVG();
     })
+    // Generate logo.svg file after promise fulfilled
     .then((logoContent) => {
         // Write content to the logo.svg file
         return writeFile('./output/logo.svg', logoContent)
     })
+    // log success message if no error and catch/log any errors
     .then(() => console.log('Successfully created logo.svg'))
     .catch((err) => console.error(err));   
 };
