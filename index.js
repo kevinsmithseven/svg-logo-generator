@@ -9,7 +9,7 @@ const Circle = require('./lib/Circle.js');
 const Square = require('./lib/Square.js');
 const Triangle = require('./lib/Triangle.js');
 
-// initialize app
+// initialize app, call promptUser function, generate logo.svg
 const init = () => {
     promptUser()
 
