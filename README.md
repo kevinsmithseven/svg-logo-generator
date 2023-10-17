@@ -14,7 +14,7 @@ Screenshot of the application:
 
 Link to video demonstrating use of the application:
 
-[Demo video of application](https://drive.google.com/file/d/17h9P9nkWesZt-XZsAzXTOvL6o6wlJqXA/view)
+[Demo video of SVG Logo Generator](https://drive.google.com/file/d/1didf7-MdC9k4cooEKS7gArZRj21iThSV/view)
     
 ![Screenshot of SVG Logo Generator](./images/screenshot%20of%20svg%20logo%20generator.png)
 
