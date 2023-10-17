@@ -16,7 +16,7 @@ Link to video demonstrating use of the application:
 
 [Demo video of application](https://drive.google.com/file/d/17h9P9nkWesZt-XZsAzXTOvL6o6wlJqXA/view)
     
-![Screenshot of README Generator](./images/README%20Generator%20App%20Screenshot.png)
+![Screenshot of SVG Logo Generator](./images/screenshot%20of%20svg%20logo%20generator.png)
 
 
 ## Credits
