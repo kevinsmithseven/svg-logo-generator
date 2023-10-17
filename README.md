@@ -9,12 +9,11 @@ This project is a Node.js command line application that takes in user input and 
 To begin the application, the user should perform a NPM install in the CLI, then type "node index.js" to run the application. The fist prompt will appear in the terminal asking for three characters for the logo. The user enters three characters and hits enter for the next prompt, which will ask what color they would like the text to be. They can select any color or hexadecimal value that is included in the 140 standard HTML color set. If an incorrect color keyword or hexadecimal value is entered, an error message will log asking for a new color. The third prompt wil ask the user to select a shape from a list of choices by using the down arrow and pressing enter on their choice. The fourth and final prompt will ask for the color they wish the shape to be. Same validation logic will apply as the text color. Once these prompts are complete, a message will appear in the terminal indicating a successful save of the logo.svg file to the output folder.
 
 
-
-Screenshot of the application:
-
 Link to video demonstrating use of the application:
 
 [Demo video of SVG Logo Generator](https://drive.google.com/file/d/1didf7-MdC9k4cooEKS7gArZRj21iThSV/view)
+
+Screenshot of the application:
     
 ![Screenshot of SVG Logo Generator](./images/screenshot%20of%20svg%20logo%20generator.png)
 
